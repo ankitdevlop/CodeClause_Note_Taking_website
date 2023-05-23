@@ -40,7 +40,7 @@ function showNotes() {
     
              <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
                      <div class="card-body">
-                     <img src="notes.png" alt="">
+                     <img src="notes.png" alt="" class="im">
                          <h5 class="card-title id="h5" ">${element.title}</h5>
                          <p class="card-text"> ${element.text}</p>
                          <button id="${index}"onclick="deleteNote(this.id)" class="btn btn-primary">Delete Note</button>
